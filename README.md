@@ -1,4 +1,16 @@
 # my_shazam
+
+A simple implementation of shazam algorithm. Explore two ways of voting, ie., the aligned hashes voting and the time difference voting.
+
+## 0.环境 environment
+Numpy 1.19.2
+
+Matplotlib 3.3.2
+
+Librosa 0.9.1
+
+Pudub 0.25.1
+
 ## 1.数据集准备 prepare the dataset
 将下载的歌曲转为wav格式，放入```./database/正常/```目录下；将歌曲的加噪版本也转为wav格式，放入```./database/噪声/```目录下；
 
